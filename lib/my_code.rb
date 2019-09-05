@@ -18,5 +18,5 @@ def reduce(array, counter = 0)
   end
   
   while i < array.length
-  
+  starting_point = starting_point(yield)
 end
