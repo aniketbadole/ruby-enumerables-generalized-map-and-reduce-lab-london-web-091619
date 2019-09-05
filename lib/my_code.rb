@@ -9,5 +9,6 @@ def map(array)
 end
 
 def reduce(array, counter = 0)
-  
+  if counter > 0
+    starting_point = counter
 end
