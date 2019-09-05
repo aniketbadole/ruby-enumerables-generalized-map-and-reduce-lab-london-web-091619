@@ -18,7 +18,8 @@ def reduce(array, counter = 0)
   end
   
   while i < array.length
-  starting_point = yield(starting_point, array[i])
-  i += 1
-end
+    starting_point = yield(starting_point, array[i])
+    i += 1
+  end
+  
 end
