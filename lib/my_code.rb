@@ -21,5 +21,5 @@ def reduce(array, counter = 0)
     starting_point = yield(starting_point, array[i])
     i += 1
   end
-  
+  starting_point
 end
